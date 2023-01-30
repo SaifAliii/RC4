@@ -1,0 +1,3 @@
+﻿  main.cpp
+E:\C++\RC4\main.cpp(99,20): warning C4018: '<': signed/unsigned mismatch
+  RC4.vcxproj -> E:\C++\RC4\Debug\RC4.exe
