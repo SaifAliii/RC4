@@ -64,9 +64,10 @@ int main()
 	string key;
 	cout << "Enter Key: ";
 	cin >> key;
+	cin.ignore();
 	string plainText, cipherText, decryptedText;
 	cout << "Enter the plain text: ";
-	cin >> plainText;
+	getline(cin, plainText);
 	cipherText = encryptionDecryption(plainText,key);
 	cout << "cipher Text is: " << cipherText << endl;
 	decryptedText = encryptionDecryption(cipherText,key);
